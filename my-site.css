@@ -1,0 +1,28 @@
+/* Colores y tipografía */
+:root {
+  --color-primary: #007BFF;
+  --color-secondary: #343A40;
+  --color-accent: #23A6B8;
+  --color-success: #28A745;
+  --color-background: #F8F9FA;
+  --primary-font: 'Roboto', Helvetica, Arial, sans-serif;
+  --secondary-font: 'Helvetica', Arial, sans-serif;
+}
+
+/* Estilos del cuerpo */
+body {
+  background-color: var(--color-background);
+  font-family: var(--primary-font);
+  color: var(--color-secondary);
+}
+
+/* Enlace de estilos */
+a {
+  color: var(--color-primary);
+}
+
+/* Estilos de botones */
+button {
+  background-color: var(--color-primary);
+  color: white;
+}
